@@ -168,11 +168,11 @@ body{
 	width: 1200px;
 }
 /*分类和跑马灯*/
-/*手机栏*/
-#phone{
-	height: 800px;
+#things{
 	background-color: lightgray;
+	padding-bottom: 20px;
 }
+/*手机栏*/
 #phone .container #phone-header{
 	overflow: hidden;
 }
@@ -251,3 +251,65 @@ body{
     font:14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
 }
 /*手机栏*/
+#home-electrcity .container .div-header h4{
+	font-size: 30px;
+	font-weight: lighter;
+	padding: 10px;
+	margin: 0;
+}
+.sidebar1{
+	float:left;
+	overflow:hidden;
+	width: 250px;
+}
+.sidebar1 img{
+	width: 230px;
+	display: block;
+}
+/*页脚*/
+#footer-links-clearfix{
+	display: flex;
+}
+#footer-links-clearfix .col-links{
+	width: 160px;
+}
+#footer-links-clearfix .col-links dt{
+	text-align: center;
+	font-size: 16px;
+}
+#footer-links-clearfix .col-links dd{
+	text-align: center;
+	margin: 0 auto;
+	padding: 5px;
+}
+#footer-links-clearfix .col-links dd a{
+	text-decoration: none;
+	color: black;
+	font-size: 12px;
+}
+#phone-num{
+	width: 300px;
+	text-align: center;
+}
+#phone-num #number{
+	font-size: 20px;
+	color: orange;
+}
+#phone-num p{
+	font-size: 12px;
+}
+/*页脚*/
+#info{
+	background-color: lightgrey;
+	text-align: center;
+}
+#info img{
+	padding: 10px;
+}
+#info p{
+	margin: 0px;
+	padding: 5px;
+	font-family: "华文行楷";
+	opacity: 0.7;
+	font-size: 20px;
+}
