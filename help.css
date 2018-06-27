@@ -1,0 +1,201 @@
+body{
+	min-width: 1200px;
+	margin: 0;
+}
+.container{
+	width:1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+/*顶栏*/
+#top-bar{
+	background:#333333;
+	color:#b0b0b0;
+	position: relative;
+	font-size: 12px;
+	height: 30px;
+	overflow: hidden;
+}
+#top-bar #top-bar-nav{
+	margin-top: 7px;
+	float: left;
+}
+#top-bar #top-bar-cart{
+	height: 30px;
+	position: relative;
+	background-color: #424242;
+	float:right;
+	vertical-align: middle;
+}
+#top-bar #top-bar-regisit{
+	margin-top: 7px;
+	float:right;
+}
+#top-bar #top-bar-regisit a{
+	margin-right: 6px;
+}
+#top-bar a{
+	color:#B0B0B0;
+	text-decoration: none;
+	margin: 5px 5px 5px 5px;
+}
+#top-bar #top-bar-cart a{
+	display: block;
+	margin-top: 7px;
+}
+#top-bar #top-bar-cart a span{
+	margin-left: 3px;
+}
+#top-bar #top-bar-cart a img{
+	width: 20px;
+}
+/*顶栏*/
+/*导航栏*/
+#top-nav{
+	margin:15px;
+	overflow: hidden;
+	height: 60px;
+	min-width: 1200px;
+}
+#top-nav a img{
+	float: left;
+	height: 55px;
+	width: 55px;
+}
+#top-nav #top-nav-detail{
+	float: left;
+	margin-left: 170px;
+	margin-top: 20px;
+}
+#top-nav #top-nav-detail a{
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	margin-left: 10px;
+}
+#top-nav #top-nav-detail a:hover{
+	color:orange;
+}
+#top-nav #top-nav-search{
+	float: right;
+	margin-top: 15px;
+}
+#top-nav #top-nav-search table{
+	border: 1px solid darkgray;
+	border-collapse: collapse;
+}
+#top-nav #top-nav-search td{
+	border: 1px darkgray solid;
+}
+#top-nav #top-nav-search #img{
+	padding:3px;
+	padding-left:7px;
+}
+#top-nav #top-nav-search input{
+	border:none;
+	height: 25px;
+}
+#top-nav #top-nav-search img{
+	height: 60%;
+	width: 60%;
+}
+/*导航栏*/
+/*客服*/
+#help-main{
+	background-color: lightgrey;
+	height: 500px;
+}
+#contact{
+	font-size: 20px;
+	font-weight: normal;
+}
+#contact h2{
+	margin: 5px 0px 5px 0px;
+}
+#botton1{
+	background-color: white;
+	text-align: center;
+	margin:0px 0px 30px 0px;
+}
+#botton1 img{
+	width: 100px;
+}
+#botton1 p{
+	margin: 5px;
+}
+#botton1 a{
+	display: block;
+	color: white;
+	background-color: orange;
+	padding: 10px;
+	text-decoration: none;
+}
+#contact-num{
+	background-color: white;
+	text-align: center;
+}
+#contact-num img{
+	width: 70px;
+	padding: 5px;
+}
+#contact-num p{
+	margin: 5px;
+	margin-bottom: 10px;
+}
+#contact-num .number{
+	font-size: 20px;
+	color: orange;
+}
+#contact-num #time{
+	padding-bottom: 10px;
+	color: grey;
+	opacity: 0.8;
+}
+/*客服*/
+/*页脚*/
+#footer-links-clearfix{
+	display: flex;
+}
+#footer-links-clearfix .col-links{
+	width: 160px;
+}
+#footer-links-clearfix .col-links dt{
+	text-align: center;
+	font-size: 16px;
+}
+#footer-links-clearfix .col-links dd{
+	text-align: center;
+	margin: 0 auto;
+	padding: 5px;
+}
+#footer-links-clearfix .col-links dd a{
+	text-decoration: none;
+	color: black;
+	font-size: 12px;
+}
+#phone-num{
+	width: 300px;
+	text-align: center;
+}
+#phone-num .number{
+	font-size: 20px;
+	color: orange;
+}
+#phone-num p{
+	font-size: 12px;
+}
+/*页脚*/
+#info{
+	background-color: lightgrey;
+	text-align: center;
+}
+#info img{
+	padding: 10px;
+}
+#info p{
+	margin: 0px;
+	padding: 5px;
+	font-family: "华文行楷";
+	opacity: 0.7;
+	font-size: 20px;
+}

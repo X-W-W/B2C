@@ -1,0 +1,315 @@
+body{
+	min-width: 1200px;
+	margin: 0;
+}
+.container{
+	width:1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+/*顶栏*/
+#top-bar{
+	background:#333333;
+	color:#b0b0b0;
+	position: relative;
+	font-size: 12px;
+	height: 30px;
+	overflow: hidden;
+}
+#top-bar #top-bar-nav{
+	margin-top: 7px;
+	float: left;
+}
+#top-bar #top-bar-cart{
+	height: 30px;
+	position: relative;
+	background-color: #424242;
+	float:right;
+	vertical-align: middle;
+}
+#top-bar #top-bar-regisit{
+	margin-top: 7px;
+	float:right;
+}
+#top-bar #top-bar-regisit a{
+	margin-right: 6px;
+}
+#top-bar a{
+	color:#B0B0B0;
+	text-decoration: none;
+	margin: 5px 5px 5px 5px;
+}
+#top-bar #top-bar-cart a{
+	display: block;
+	margin-top: 7px;
+}
+#top-bar #top-bar-cart a span{
+	margin-left: 3px;
+}
+#top-bar #top-bar-cart a img{
+	width: 20px;
+}
+/*顶栏*/
+/*导航栏*/
+#top-nav{
+	margin:15px;
+	overflow: hidden;
+	height: 60px;
+	min-width: 1200px;
+}
+#top-nav a img{
+	float: left;
+	height: 55px;
+	width: 55px;
+}
+#top-nav #top-nav-detail{
+	float: left;
+	margin-left: 170px;
+	margin-top: 20px;
+}
+#top-nav #top-nav-detail a{
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	margin-left: 10px;
+}
+#top-nav #top-nav-detail a:hover{
+	color:orange;
+}
+#top-nav #top-nav-search{
+	float: right;
+	margin-top: 15px;
+}
+#top-nav #top-nav-search table{
+	border: 1px solid darkgray;
+	border-collapse: collapse;
+}
+#top-nav #top-nav-search td{
+	border: 1px darkgray solid;
+}
+#top-nav #top-nav-search #img{
+	padding:3px;
+	padding-left:7px;
+}
+#top-nav #top-nav-search input{
+	border:none;
+	height: 25px;
+}
+#top-nav #top-nav-search img{
+	height: 60%;
+	width: 60%;
+}
+/*导航栏*/
+/*分类和跑马灯*/
+#main-nav{
+	height:620px;
+}
+#main-nav #a-img{
+	position:absolute;
+	z-index: 1;
+}
+#main-nav #a-img img{
+	width: 1200px;
+}
+#main-nav #list{
+	position: absolute;
+	display: block;
+	float: left;
+	padding: 0;
+	margin: 0;
+	background-size: 100%;
+	z-index: 2;
+	width: 230px;
+	height: 450.237px;
+}
+#main-nav #list li{
+	position: relative;
+	list-style-type: none;
+	display: block;
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+	padding: 12px;
+	padding-left: 20px;
+	margin: 0;
+	height: 21.0237px;
+}
+#main-nav #list li:hover{
+	background-color: orange;
+}
+#main-nav #list li a{
+	color: white;
+	text-decoration: none;
+}
+
+#main-nav .container #changePhotoArrow .arrow{
+	position: relative;
+	z-index: 2;
+	font-size:40px;
+	padding: 5px;
+	color: grey;
+}
+#main-nav .container #changePhotoArrow .arrow:nth-child(1){
+	left: 230px;
+    top: 195px;
+}
+#main-nav .container #changePhotoArrow .arrow:nth-child(2){
+	left: 1132px;
+    top: 195px;
+}
+#main-nav .container #changePhotoArrow .arrow:hover{
+	color: white;
+	background-color: grey;
+}
+#main-nav .container .advertisement a img{
+	position: absolute;
+	top:600px;
+}
+.ad-img{
+	width: 1200px;
+}
+/*分类和跑马灯*/
+#things{
+	background-color: lightgray;
+	padding-bottom: 20px;
+}
+/*手机栏*/
+#phone .container #phone-header{
+	overflow: hidden;
+}
+#phone .container #phone-header h4{
+	float: left;
+	font-size: 30px;
+	font-weight: lighter;
+	padding: 10px;
+	margin: 0;
+	
+}
+#phone .container #phone-header span{
+	float: right;
+	padding: 10px;
+	font-size: 20px;
+}
+#phone .container #phone-header span p{
+	display: inline-block;
+	float: right;
+	margin: 0;
+}
+#phone .container #phone-header span #All-arrow{
+	display: inline-block;
+	background-color: grey;
+	color: white;
+	border-radius: 50%;
+}
+#sidebar{
+	float: left;
+	overflow:hidden;
+	width: 250px;
+}
+#sidebar img{
+	width: 230px;
+	display: block;
+}
+#phone-list{
+	float: left;
+	width: 950px;
+}
+.p-list{
+	float: left;
+	width: 200px;
+	margin-left: 37px;
+	text-align: center;
+	padding-top: 40px;
+	background-color: white;
+	margin-bottom: 23px;
+}
+.p-list img{
+	width: 80%;
+}
+.p-list h3{
+	font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 10px 2px
+}
+.p-list .desc{
+	margin: 0 10px 10px;
+    height: 18px;
+    font-size: 12px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    _zoom: 1;
+    color: #b0b0b0;
+}
+.p-list .price{
+	margin: 0 10px 14px;
+	text-align: center;
+}
+.p-list .price .num{
+    color: #ff6700;
+    font:14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+/*手机栏*/
+#home-electrcity .container .div-header h4{
+	font-size: 30px;
+	font-weight: lighter;
+	padding: 10px;
+	margin: 0;
+}
+.sidebar1{
+	float:left;
+	overflow:hidden;
+	width: 250px;
+}
+.sidebar1 img{
+	width: 230px;
+	display: block;
+}
+/*页脚*/
+#footer-links-clearfix{
+	display: flex;
+}
+#footer-links-clearfix .col-links{
+	width: 160px;
+}
+#footer-links-clearfix .col-links dt{
+	text-align: center;
+	font-size: 16px;
+}
+#footer-links-clearfix .col-links dd{
+	text-align: center;
+	margin: 0 auto;
+	padding: 5px;
+}
+#footer-links-clearfix .col-links dd a{
+	text-decoration: none;
+	color: black;
+	font-size: 12px;
+}
+#phone-num{
+	width: 300px;
+	text-align: center;
+}
+#phone-num #number{
+	font-size: 20px;
+	color: orange;
+}
+#phone-num p{
+	font-size: 12px;
+}
+/*页脚*/
+#info{
+	background-color: lightgrey;
+	text-align: center;
+}
+#info img{
+	padding: 10px;
+}
+#info p{
+	margin: 0px;
+	padding: 5px;
+	font-family: "华文行楷";
+	opacity: 0.7;
+	font-size: 20px;
+}
